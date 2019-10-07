@@ -1,0 +1,7 @@
+create table signup(
+user_name not null PRIMARY KEY int AUTO_INCREMENT,
+user_first not null varchar(20),
+user_last not null varchar(20),
+user_email not null varchar(20),
+user_password not null varchar(20),
+);
