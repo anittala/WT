@@ -5,9 +5,9 @@ body {
     background-size: cover;
     font-family: sans-serif;
 }
-.loginbox{
+.signupbox{
 	width:320px;
-	height: 420px;
+	height: 600px;
 	background: rgba(0,0,0,0.5);
 	color: #fff;
 	top:50%;
@@ -31,25 +31,25 @@ h1{
 	text-align: center;
 	font-size: 22px;
 }
-.loginbox p{
+.signupbox p{
 	margin: 0;
 	padding: 0;
 	font-weight: bold;
 }
-.loginbox input{
+.signupbox input{
 	width: 100%;
 	margin-bottom: 20px;
 }
-    .loginbox input[type="text"], input[type="password"], input[type="email"] {
-        border: none;
-        border-bottom: 1px solid #fff;
-        background: transparent;
-        outline: none;
-        height: 40px;
-        color: #fff;
-        font-size: 16px;
-    }
-.loginbox input[type="submit"]{
+.signupbox input[type="text"], input[type="password"], input[type="email"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.signupbox input[type="submit"]{
 	border:none;
 	outline: none;
 	height: 40px;
@@ -58,17 +58,17 @@ h1{
 	font-size: 18px;
 	border-radius: 20px;
 }
-.loginbox input[type="submit"]:hover{
+.signupbox input[type="submit"]:hover{
 	cursor: pointer;
 	background: #ed9111;
 	color: #000;
 }
-.loginbox a{
+.signupbox a{
 	text-decoration: none;
 	font-size: 12px;
 	line-height: 20px;
 	color: darkgrey;
 }
-.loginbox a:hover{
+.signupbox a:hover{
 	color: #e8c238;
 }
